@@ -59,26 +59,28 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className='contact-outer'>
-                    <form onSubmit={handleSubmit} className='contact-section'>
+                  <div className='contact-section'>
                       <input 
                           placeholder=' Name'
                           type='text'
-                          onChange={(e) => setName(e.target.value)}
                           required
                       />
                       <input 
                           placeholder=' Email'
                           type='text'
-                          onChange={(e) => setEmail(e.target.value)}
                           required
                       />
                       <textarea 
                           placeholder=' Message'    
-                          onChange={(e) => setMessage(e.target.value)}
                           required
                           ></textarea>
-                      <button type='submit'>Send</button>
-                    </form>
+                      <button 
+                      type='submit'
+                      onClick={handleSubmit}
+                       >
+                      Send
+                       </button>
+                  </div>  
                 </div>
               </div>
               <div className='footer'>

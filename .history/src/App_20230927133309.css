@@ -18,25 +18,21 @@ p {
 }
 
 .header {
-  height: 100px;
+  height: 80px;
   display: flex;
+  /* justify-content: space-around; */
   align-items: center;
   text-align: left;
   width: 100%;
   margin: 0 auto;
   color: white;
   position: fixed;
-  background-color: rgb(5, 15, 67, 0.5);
+  background-color: rgb(5, 15, 67);
   z-index: 10;
 }
 .header-left {
   margin-right: auto;
   padding-left: 80px;
-}
-
-.header-left img {
-  width: 50px;
-  height: 50px;
 }
 
 .header-right {
@@ -61,7 +57,7 @@ nav ul li a:hover {
 }
 
 .container {
-  padding: 120px;
+  padding: 80px;
 }
 
 .title {
@@ -102,20 +98,13 @@ nav ul li a:hover {
 #about-me {
   display: flex;
   width: 100%;
-  margin-bottom: 100px;
-}
-
-.my-name {
-  font-weight: 300;
-  font-style: italic;
+  margin-bottom: 120px;
 }
 
 .about-me img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  margin-top: 40px;
-  border-radius: 10px;
 }
 .section-title {
   display: flex;
@@ -124,13 +113,12 @@ nav ul li a:hover {
 }
 
 #portfolio {
-  padding-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .project {
   display: flex;
-  padding-bottom: 100px;
+  /* padding: 50px 0; */
 }
 
 .project h3 {
@@ -145,7 +133,6 @@ nav ul li a:hover {
 
 .left-contents {
   padding-right: 100px;
-  margin-bottom: 20px;
 }
 
 .project img {
@@ -154,19 +141,8 @@ nav ul li a:hover {
   object-fit: cover;
 }
 
-.site-jump {
-  text-decoration: none;
-  color: rgb(160, 249, 201, 0.8);
-  font-size: 15px;
-}
-
-.site-jump:hover {
-  text-decoration: underline;
-}
-
 #skill {
-  padding-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .skill-section {
@@ -195,8 +171,7 @@ nav ul li a:hover {
 }
 
 #service {
-  padding-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .service-description {
@@ -207,7 +182,7 @@ nav ul li a:hover {
 }
 
 .service-box {
-  width: 30%;
+  width: 40%;
   border: #ca82fd solid 1px;
   height: 280px;
   margin: 20px 20px;
@@ -234,13 +209,12 @@ nav ul li a:hover {
   background: linear-gradient(to left, #97c6f8, #4b7cf8);
   border-radius: 50px 50px 0 0;
   width: 100%;
-  margin: 120px auto 0 auto;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
 
 .contact-wrapper {
-  padding: 0 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +223,11 @@ nav ul li a:hover {
 .contact-description {
   width: 50%;
   padding: 0 30px;
-  margin-right: auto;
+  margin: 0 auto;
+}
+
+.contact-outer {
+  width: 50%;
 }
 
 .info-detail {
@@ -261,10 +239,6 @@ nav ul li a:hover {
   width: 25px;
   height: 25px;
   margin-right: 15px;
-}
-
-.contact-outer {
-  width: 50%;
 }
 
 .contact-section {
@@ -302,7 +276,7 @@ nav ul li a:hover {
   border: none;
   border-radius: 5px;
   background-color: #000066;
-  color: white;
+
 }
 
 .contact-section button {
@@ -314,12 +288,6 @@ nav ul li a:hover {
   color: white;
   font-weight: 600;
   font-size: 14px;
-  transition: .3s;
-}
-
-.contact-section button:hover {
-  background-color: white;
-  color: #000066;
 }
 
 .footer {
@@ -341,10 +309,6 @@ hr {
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    padding: 80px;
-  }
-
   nav ul li {
     margin-right: 30px;
   }
@@ -391,8 +355,6 @@ hr {
     display: block;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    padding: 0;
   }
 
   .contact-description {
@@ -400,33 +362,9 @@ hr {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 0 auto 15px auto;
-  }
-
-  .info-detail {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
   }
 
   .contact-outer {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;     
+    margin: 0 auto;
   }
-
-  .contact-section {
-    width: 100%;
-  }
-
-  .contact-section input {
-    width: 80%;
-  }
-
-  .contact-section textarea {
-    width: 80%;
-  }
-
 }

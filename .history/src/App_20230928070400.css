@@ -145,7 +145,6 @@ nav ul li a:hover {
 
 .left-contents {
   padding-right: 100px;
-  margin-bottom: 20px;
 }
 
 .project img {
@@ -158,10 +157,6 @@ nav ul li a:hover {
   text-decoration: none;
   color: rgb(160, 249, 201, 0.8);
   font-size: 15px;
-}
-
-.site-jump:hover {
-  text-decoration: underline;
 }
 
 #skill {

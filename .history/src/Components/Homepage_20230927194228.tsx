@@ -13,12 +13,12 @@ const Homepage = () => {
         <div className='about-me' id='about-me'>
             <img src='/image/m-drawing.jpg' alt='profile-image' />
             <div className='right-contents'>
-                <h2>About me</h2>
-                <h2 className='my-name'>Seiya Matsumoto</h2>
+                <h2>Amout me</h2>
+                <h2>Seiya Matsumoto</h2>
                 <p>Webアプリケーションを中心に個人開発をしております。主にJavascript/React/HTML/CSSを扱っています。
                 直近はマーケティング関連の職務に従事しておりましたので、マーケティング戦略にしっかりと合わせたWEBサイトやLP製作も行なっております。
-                <br></br>近年IT技術への関心が非常に高まり、勉強を始め、エンジニアに転身を決意しました。これまではマーケティング関連の職務や、店舗ビジネスの起業を経験しております。
-                <br></br>今後はこの経験を活かした「技術者」として、業界でユニークな存在を目指しております。
+                <br></br>近年IT技術への関心が非常に高まり、勉強を始め開発を始めました。これまではマーケティング関連の職務や、店舗ビジネスの起業を経験しております。
+                <br></br>この経験を活かした技術者として、業界でユニークな存在を目指しております。
                 <br></br>趣味はサーフィンと、それを動画撮影・編集する事です。</p>
                 <a href='#contact' className='button'>Contact me</a>
             </div>
@@ -37,9 +37,6 @@ const Homepage = () => {
                         深める事を目的とし、コミュニティー感を作りチャンネルの有料メンバーシップやオンラインサロン構築への足掛かりとする
                         計画のプロジェクトです。
                     </p>
-                    <a href='https://seeds-surfers-react-sns.web.app/' className='site-jump'>https://seeds-surfers-react-sns.web.app/</a>
-                    <br></br>
-                    <a href='https://github.com/Seiya00002/seeds_surfers_react_sns' className='site-jump'>Github ソースコード</a>
                 </div>
                 <img src='/image/seeds-surfers-image.png'
                     alt='Seeds-Surfers-image' 
@@ -54,9 +51,6 @@ const Homepage = () => {
                         見えずらく売上に中々結び付かない課題を解消すべく、すぐにコストを試算できる機能を実装し、分かり易いコスト
                         提示にて顧客注文増加を目指しております。
                     </p>
-                    <a href='https://64b790c86d09da5b5a69abbb--harmonious-starlight-2b71c7.netlify.app/' className='site-jump'>https://64b790c86d09da5b5a69abbb--harmonious-starlight-2b71c7.netlify.app/</a>
-                    <br></br>
-                    <a href='https://github.com/Seiya00002/seeds_surfers_react_sns' className='site-jump'>Github ソースコード</a>
                 </div>
                 <img src='/image/seeds-surf-lp-image.png'
                     alt='Seeds-Surf-lp-image' 
@@ -70,7 +64,6 @@ const Homepage = () => {
                         販売売上80%増を達成しました。ニッチな分野のジャンルで、無名の状態から業界では知られた存在となり、人気を
                         獲得し売り上げにつながりました。テレビ風の面白おかしい、サボテン系植物の解説系動画チャンネルです。
                     </p>
-                    <a href='https://www.youtube.com/@cova.amigo1' className='site-jump'>https://www.youtube.com/@cova.amigo1</a>
                 </div>
                 <img src='/image/youtube-image.png'
                     alt='movie-project-image' 

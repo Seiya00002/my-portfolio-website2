@@ -161,7 +161,7 @@ nav ul li a:hover {
 }
 
 .site-jump:hover {
-  text-decoration: underline;
+  text-decoration: solid;
 }
 
 #skill {

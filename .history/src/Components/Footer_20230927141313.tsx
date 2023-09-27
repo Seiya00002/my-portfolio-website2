@@ -59,7 +59,8 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className='contact-outer'>
-                    <form onSubmit={handleSubmit} className='contact-section'>
+                  <div className='contact-section'>
+                    <form onSubmit={handleSubmit}>
                       <input 
                           placeholder=' Name'
                           type='text'
@@ -79,6 +80,7 @@ const Footer = () => {
                           ></textarea>
                       <button type='submit'>Send</button>
                     </form>
+                  </div>  
                 </div>
               </div>
               <div className='footer'>
