@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: rgb(98, 128, 246);
+}
+
+.header {
+  height: 90px;
+}
+
+.footer {
+  height: 90px;
+}
