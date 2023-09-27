@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.App {
+  align-items: center;
+  font-size: 18px;
+  height: 100vh;
+  width: 100%;
+}
+
+h1, h2, h3, p, a, label {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  color: white;
+  position: fixed;
+  background-color: rgb(5, 15, 67);
+  z-index: 10;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: rgb(36, 89, 250);
+}
+
+.container {
+  padding: 80px;
+}
+
+.title {
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.title p{
+  font-size: 20px;
+  position: absolute;
+}
+
+.title h1{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 40px;
+  padding-top: 45px;
+}
+
+.button {
+  display       : inline-block;
+  border-radius : 10px;         
+  font-size     : 12pt;      
+  text-align    : center;     
+  cursor        : pointer;    
+  padding       : 17px 45px;  
+  background: linear-gradient(to left, #97c6f8, #4b7cf8);
+  color         : #ffffff;     
+  line-height   : 1em;         
+  transition    : .5s;        
+  border        : none;
+  text-decoration: none;
+}
+.button:hover {
+  color         : #000066;   
+  background    : #ffffff;     
+}
+
+#about-me {
+  display: flex;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.about-me img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+#portfolio {
+  margin-bottom: 120px;
+}
+
+.project {
+  display: flex;
+  /* padding: 50px 0; */
+}
+
+.project h3 {
+  color: #4b7cf8;
+  font-weight: 400;
+}
+
+.right-contents {
+  align-items: center;
+  padding-left: 100px;
+}
+
+.left-contents {
+  padding-right: 100px;
+}
+
+.project img {
+  width: 560px;
+  height: 280px;
+  object-fit: cover;
+}
+
+#skill {
+  margin-bottom: 120px;
+}
+
+.skill-section {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  padding-right: 5%;
+  text-align: center;
+  height: 80px;
+  width: 20%;
+  margin-bottom: 100px;
+}
+
+
+.tech-icon img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.skill-section {
+  display: flex;
+}
+
+#service {
+  margin-bottom: 120px;
+}
+
+.service-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-box {
+  width: 40%;
+  border: #ca82fd solid 1px;
+  height: 280px;
+  margin: 20px 20px;
+  padding: 0 10px;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-title {
+  padding-top: 20px;
+}
+
+.service-title h2 {
+  font-size: 23px;
+}
+
+.service-title img {
+  width: 50px;
+  height: 50px;
+}
+
+#contact {
+  background: linear-gradient(to left, #97c6f8, #4b7cf8);
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.contact-section input {
+  width: 250px;
+  height: 30px;
+  margin-bottom:  10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000066;
+}
+
+.contact-section textarea {
+  width: 250px;
+  height: 70px;
+  margin-bottom:  10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000066;
+
+}
+
+.contact-section button {
+  margin-bottom: 50px;
+}
+
+/* .footer {
+  height: 110px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #97c6f8, #4b7cf8);
+} */
+
+#contact p {
+  text-align: center;
+  padding-top: 25px;
+  font-size: small;
+}
+
+hr {
+  width: 80%;
+  border: #305883 solid 0.5px;
+  margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  #about-me {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  } 
+
+  .right-contents {
+    padding: 0;
+  }
+
+  .left-contents {
+    padding: 0;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+    max-height: 280px;
+  }
+
+  .service-box {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* @media screen and (max-width: 480px) {
+  .project {
+    display: block;
+  }
+} */
