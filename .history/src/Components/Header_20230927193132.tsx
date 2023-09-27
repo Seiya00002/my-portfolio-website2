@@ -4,9 +4,7 @@ const Header = () => {
   return (
     <div className='header'>
         <div className='header-left'>
-            <a href='#top'>
-                <img src='/image/s-logo2-removebg.png' alt='my-logo' />
-            </a>
+            <img src='/image/s-logo2-removebg.png' alt='my-logo' />
         </div>
         <div className='header-right'>
             <nav>

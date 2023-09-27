@@ -3,38 +3,14 @@ import { useState } from 'react';
 
 const Footer = () => {
 
-  const [ name, setName] = useState<string>("");
-  const [ email, setEmail] = useState<string>("");
-  const [ message, setMessage] = useState<string>("");
+  const handleSubmit = () => {
+    const [ name, setName] = useState<string>("");
+    const [ emial, setEmail] = useState<string>("");
+    const [ message, setMessage] = useState<string>("");
 
-  const handleSubmit = async (e:any) => {
-    e.preventDefault();
+    
 
-    try {
-      const response = await fetch('https://formspree.io/f/xrgwynvb', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
-      });
-
-      if (response.ok) {
-        alert('メッセージが送信されました。');
-        setName('');
-        setEmail('');
-        setMessage('');
-      } else {
-        alert('メッセージの送信に失敗しました。');
-      }
-    } catch (error) {
-      console.log('送信エラー:', error);
-    }
-  };
+}  
 
   return (
             <div id='contact'>
@@ -59,26 +35,23 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className='contact-outer'>
-                    <form onSubmit={handleSubmit} className='contact-section'>
+                  <div className='contact-section'>
                       <input 
                           placeholder=' Name'
                           type='text'
-                          onChange={(e) => setName(e.target.value)}
                           required
                       />
                       <input 
                           placeholder=' Email'
                           type='text'
-                          onChange={(e) => setEmail(e.target.value)}
                           required
                       />
                       <textarea 
                           placeholder=' Message'    
-                          onChange={(e) => setMessage(e.target.value)}
                           required
                           ></textarea>
-                      <button type='submit'>Send</button>
-                    </form>
+                      <button type='submit' >Send</button>
+                  </div>  
                 </div>
               </div>
               <div className='footer'>

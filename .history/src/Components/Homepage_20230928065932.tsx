@@ -37,8 +37,7 @@ const Homepage = () => {
                         深める事を目的とし、コミュニティー感を作りチャンネルの有料メンバーシップやオンラインサロン構築への足掛かりとする
                         計画のプロジェクトです。
                     </p>
-                    <a href='https://seeds-surfers-react-sns.web.app/' className='site-jump'>https://seeds-surfers-react-sns.web.app/</a>
-                    <br></br>
+                    <a href='https://seeds-surfers-react-sns.web.app/' className='site-jump'>URL:https://seeds-surfers-react-sns.web.app/</a>
                     <a href='https://github.com/Seiya00002/seeds_surfers_react_sns' className='site-jump'>Github ソースコード</a>
                 </div>
                 <img src='/image/seeds-surfers-image.png'
@@ -54,9 +53,6 @@ const Homepage = () => {
                         見えずらく売上に中々結び付かない課題を解消すべく、すぐにコストを試算できる機能を実装し、分かり易いコスト
                         提示にて顧客注文増加を目指しております。
                     </p>
-                    <a href='https://64b790c86d09da5b5a69abbb--harmonious-starlight-2b71c7.netlify.app/' className='site-jump'>https://64b790c86d09da5b5a69abbb--harmonious-starlight-2b71c7.netlify.app/</a>
-                    <br></br>
-                    <a href='https://github.com/Seiya00002/seeds_surfers_react_sns' className='site-jump'>Github ソースコード</a>
                 </div>
                 <img src='/image/seeds-surf-lp-image.png'
                     alt='Seeds-Surf-lp-image' 
@@ -70,7 +66,6 @@ const Homepage = () => {
                         販売売上80%増を達成しました。ニッチな分野のジャンルで、無名の状態から業界では知られた存在となり、人気を
                         獲得し売り上げにつながりました。テレビ風の面白おかしい、サボテン系植物の解説系動画チャンネルです。
                     </p>
-                    <a href='https://www.youtube.com/@cova.amigo1' className='site-jump'>https://www.youtube.com/@cova.amigo1</a>
                 </div>
                 <img src='/image/youtube-image.png'
                     alt='movie-project-image' 
