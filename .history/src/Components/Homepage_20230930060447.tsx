@@ -125,28 +125,28 @@ const Homepage = () => {
             <div className='service-description'>
                 <div className='service-box'>
                     <div className='service-title'>
-                        <img src='/image/memo-app-icon.svg' alt='webapp' />
+                        <img src='/image/memo-app-icon.svg' />
                         <h2>Web Application 開発</h2>
                     </div>
                     <p>Javascript, React.js を用いたSNS等を始めとした様々なWEBアプリケーションの開発をしております。</p>
                 </div>
                 <div className='service-box'>
                 <div className='service-title'>
-                        <img src='/image/website-icon.svg' alt='website' />
+                        <img src='/image/website-icon.svg' />
                         <h2>Website 開発</h2>
                     </div>
                     <p>Javascriptを用いた機能付きのWebサイトや、React.jsによる本格的なWebサイトをHTML,CSSの編集を含めご対応いたします。</p>
                 </div>
                 <div className='service-box'>
                 <div className='service-title'>
-                        <img src='/image/mobilephone-icon.svg' alt='marketing' />
+                        <img src='/image/mobilephone-icon.svg' />
                         <h2>Web Marketing support</h2>
                     </div>
                     <p>LP製作から、Web広告、SNS運用、そしてマーケティング戦略立案をサポートいたします。</p>
                 </div>
                 <div className='service-box'>
                 <div className='service-title'>
-                        <img src='/image/movie-icon.svg' alt='movie' />
+                        <img src='/image/movie-icon.svg' />
                         <h2>動画製作</h2>
                     </div>
                     <p>Youtube, SNS向け動画製作の企画、撮影、編集作業を行なっております。Adobe premiere pro, filmoraソフトご対応しております。</p>
