@@ -37,7 +37,7 @@ const Homepage = () => {
                         深める事を目的とし、コミュニティー感を作りチャンネルの有料メンバーシップやオンラインサロン構築への足掛かりとする
                         計画のプロジェクトです。
                     </p>
-                    <a href='https://seeds-surfers.seeds-surf.com' className='site-jump'>https://seeds-surfers.seeds-surf.com</a>
+                    <a href='https://seeds-surfers.seeds-surf.com' className='site-jump'>https://seeds-surfers-react-sns.web.app/</a>
                     <br></br>
                     <a href='https://github.com/Seiya00002/seeds_surfers_react_sns' className='site-jump'>Github ソースコード</a>
                 </div>
@@ -54,7 +54,7 @@ const Homepage = () => {
                         見えずらく売上に中々結び付かない課題を解消すべく、すぐにコストを試算できる機能を実装し、分かり易いコスト
                         提示にて顧客注文増加を目指しております。
                     </p>
-                    <a href='https://lp.seeds-surf.com' className='site-jump'>https://lp.seeds-surf.com</a>
+                    <a href='lp.seeds-surf.com' className='site-jump'>https://64b790c86d09da5b5a69abbb--harmonious-starlight-2b71c7.netlify.app/</a>
                     <br></br>
                     <a href='https://github.com/Seiya00002/seeds-surf-lp.git' className='site-jump'>Github ソースコード</a>
                 </div>

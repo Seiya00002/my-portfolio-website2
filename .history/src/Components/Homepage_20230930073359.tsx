@@ -54,7 +54,7 @@ const Homepage = () => {
                         見えずらく売上に中々結び付かない課題を解消すべく、すぐにコストを試算できる機能を実装し、分かり易いコスト
                         提示にて顧客注文増加を目指しております。
                     </p>
-                    <a href='https://lp.seeds-surf.com' className='site-jump'>https://lp.seeds-surf.com</a>
+                    <a href='https://lp.seeds-surf.com' className='site-jump'>lp.seeds-surf.com</a>
                     <br></br>
                     <a href='https://github.com/Seiya00002/seeds-surf-lp.git' className='site-jump'>Github ソースコード</a>
                 </div>
