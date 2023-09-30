@@ -32,7 +32,7 @@ const Homepage = () => {
                 <div className='left-contents'>
                     <h3>PROJECT 1</h3>
                     <h2>メンバー制SNS アプリケーション開発</h2>
-                    <p>観葉植物系Youtubeチャンネル「cova.amigo」視聴者様向けの、メンバー専用投稿サイトを製作しました。
+                    <p>「Seeds Surfers」観葉植物系Youtubeチャンネル「cova.amigo」視聴者様向けの、メンバー専用投稿サイトを製作しました。
                         観葉植物の育成方法などを配信するYoutuberとその視聴者、そして視聴者同士でコミュニケーションを
                         深める事を目的とし、コミュニティー感を作りチャンネルの有料メンバーシップやオンラインサロン構築への足掛かりとする
                         計画のプロジェクトです。
@@ -50,8 +50,8 @@ const Homepage = () => {
                 <div className='left-contents'>
                     <h3>PROJECT 2</h3>
                     <h2>LP 製作</h2>
-                    <p>私自身の現職の個人事業、植物輸入事業「Seeds Surf」の宣伝LPを製作し運用しております。具体的なコストが
-                        分かりづらく注文に中々結び付かない課題を解消すべく、簡単にコストを試算できる機能を実装し、分かり易いコスト
+                    <p>私自身の個人事業の、植物専門輸入事業「Seeds Surf」の宣伝LPを製作し運用しております。具体的なコストがすぐに
+                        見えずらく売上に中々結び付かない課題を解消すべく、すぐにコストを試算できる機能を実装し、分かり易いコスト
                         提示にて顧客注文増加を目指しております。
                     </p>
                     <a href='https://lp.seeds-surf.com' className='site-jump'>https://lp.seeds-surf.com</a>
@@ -65,10 +65,10 @@ const Homepage = () => {
             <div className='project'>
                 <div className='left-contents'>
                     <h3>PROJECT 3</h3>
-                    <h2>動画製作・配信</h2>
-                    <p>Youtubeチャンネルを立ち上げから、企画、撮影、編集を含む運営を約2年間行いました。チャンネル登録者は約8千人、
-                        販売売上80%増を達成しました。ニッチな分野のジャンルで小規模の登録者数でも、該当業界では無名の状態から知られた存在となり、人気を
-                        獲得し売り上げにつながりました。サボテン系植物の解説系動画チャンネルです。
+                    <h2>動画製作</h2>
+                    <p>Youtubeチャンネルを立ち上げから、撮影、編集、分析を含む運営を約2年間行いました。チャンネル登録者は約8千人、
+                        販売売上80%増を達成しました。ニッチな分野のジャンルで、無名の状態から業界では知られた存在となり、人気を
+                        獲得し売り上げにつながりました。テレビ風の面白おかしい、サボテン系植物の解説系動画チャンネルです。
                     </p>
                     <a href='https://www.youtube.com/@cova.amigo1' className='site-jump'>https://www.youtube.com/@cova.amigo1</a>
                 </div>
@@ -113,7 +113,7 @@ const Homepage = () => {
                 </div>
                 <div className='tech-icon'>
                     <img src='/image/adobe-premiere-icon.svg' alt='adobe' />
-                    <p>Adobe premiere pro</p>
+                    <p>Adobe preiere pro</p>
                 </div>
             </div>
         </div>

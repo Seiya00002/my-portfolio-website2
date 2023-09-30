@@ -343,10 +343,7 @@ hr {
 
 @media screen and (max-width: 1024px) {
   .header-left {
-    padding-left: 80px;
-  }
-  .header-right {
-    padding-right: 55px;
+    padding-left: 50px;
   }
 
   .container {
