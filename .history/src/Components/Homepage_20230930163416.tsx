@@ -65,9 +65,9 @@ const Homepage = () => {
             <div className='project'>
                 <div className='left-contents'>
                     <h3>PROJECT 3</h3>
-                    <h2>動画製作・配信</h2>
+                    <h2>動画製作</h2>
                     <p>Youtubeチャンネルを立ち上げから、企画、撮影、編集を含む運営を約2年間行いました。チャンネル登録者は約8千人、
-                        販売売上80%増を達成しました。ニッチな分野のジャンルで小規模の登録者数でも、該当業界では無名の状態から知られた存在となり、人気を
+                        販売売上80%増を達成しました。ニッチな分野のジャンルで小規模の登録者数でも、業界では無名の状態から知られた存在となり、人気を
                         獲得し売り上げにつながりました。サボテン系植物の解説系動画チャンネルです。
                     </p>
                     <a href='https://www.youtube.com/@cova.amigo1' className='site-jump'>https://www.youtube.com/@cova.amigo1</a>
