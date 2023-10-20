@@ -16,8 +16,7 @@ const Homepage = () => {
                 <h2>About me</h2>
                 <h2 className='my-name'>Seiya Matsumoto</h2>
                 <p>Webアプリケーションを中心に個人開発をしております。主にJavascript/React/HTML/CSSを扱っています。
-                マーケティング戦略にしっかりと合わせたWEBサイトやLP製作も行なっております。
-                <br></br>また動画制作を、企画の行程から編集まで行なっております。
+                直近はマーケティング関連の職務に従事しておりましたので、マーケティング戦略にしっかりと合わせたWEBサイトやLP製作も行なっております。
                 <br></br>趣味はサーフィンと、それを動画撮影・編集する事です。</p>
                 <a href='#contact' className='button'>Contact me</a>
             </div>
